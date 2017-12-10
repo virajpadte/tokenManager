@@ -1,0 +1,18 @@
+[Unit]
+Description=This node application serves as a backend to provide a valid access token for accessing Airvantage resources.
+
+[Service]
+ExecStart=/usr/bin/node /var/www/tokenManager/app.js
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=tokenManager
+User=www-data
+Group=www-data
+Environment=PATH=/usr/bin:/usr/local/bin
+Environment=NODE_ENV=production
+WorkingDirectory=/var/www/tokenManager
+
+[Install]
+WantedBy=multi-user.target
