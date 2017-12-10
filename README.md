@@ -1,5 +1,6 @@
-# TokenManager #
+# Token Manager #
 ---------------
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 This node application serves as a backend to provides a valid access
 token for a Sierra Wireless AirVantage account.
@@ -72,3 +73,6 @@ Dec 01 10:50:34 jarvis tokenManager[8954]: Token Manager is serving on port 5001
 #### Additional features which can be implemented ####
 * logging each request and response - check morgan npm package
 * Application logging  - check winston npm package
+
+##### Keep contributing to Open Source
+लोकाः समस्ताः सुखिनोभवंतु
